@@ -20,21 +20,21 @@ docker-compose up
 ```
 
 ## FAST API Docs url:
-http://0.0.0.0:8008/docs#/
+http://0.0.0.0:8001/docs#/
 
 <img width=600 src="./tests/res/fastapi.png" alt="FAST API">    
 
 ---
 # 🚀 Code Examples
 start the service before starting the tests
-```uvicorn main:app --reload --host 0.0.0.0 --port 8008```
+```uvicorn main:app --reload --host 0.0.0.0 --port 8001```
 *you can change the address and port in the file **docker-compose.yaml***
 ### To value
 ```python
 import requests
 
 input_image_name = 'test_image.jpg'
-api_host = 'http://0.0.0.0:8008/'
+api_host = 'http://0.0.0.0:8001/'
 type_rq = 'img_object_detection_to_json'
 
 files = {'file': open(input_image_name, 'rb')}
@@ -57,7 +57,7 @@ from io import BytesIO
 import matplotlib.pyplot as plt
 
 input_image_name = 'test_image.jpg'
-api_host = 'http://0.0.0.0:8008/'
+api_host = 'http://0.0.0.0:8001/'
 type_rq = 'img_object_detection_to_img'
 
 files = {'file': open(input_image_name, 'rb')}
