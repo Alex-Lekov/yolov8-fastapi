@@ -89,22 +89,41 @@ More examples in the notebook [test.ipynb](./tests/test.ipynb)
 
 ---
 # Test
-I wrote functional tests for the program to check the operation of the service     
+This repository contains functional tests for a program to ensure the proper operation of the service.
 
-first install the necessary environment or run the docker container
+### Getting Started Test
+To get started with the testing process, you first need to set up the necessary environment. This can be achieved by either installing the required packages or by running the Docker container.
+
+#### 1. Installing Required Packages:
+Run the following command to install the necessary packages:
 ```
 pip install -r requirements.txt
 ```
+### Alternatively, you can also run the tests inside a Docker container. To do so, follow these steps:
+Start the Docker container:
+```
+docker-compose up
+```
+Find the container ID:
+```
+docker ps
+```
+Connect inside the container:
+```
+docker exec -it {CONTAINER_ID}
+```
 
-then just run the tests from the program directory
+2. Run the tests from the program directory:
+Once you have set up the environment, navigate to the program directory and run the tests using the following command:
 ```
 pytest -v --disable-warnings
 ```
 
-if all is well, you will get the following result:     
+If all tests pass successfully, you will see the following result:     
 <img width=600 src="./tests/res/tests.png" alt="">    
 
-Also added a jupyter notebook with visualization [test.ipynb](./tests/test.ipynb)    
+
+A Jupyter Notebook with visualization has also been added to this repository. Check out [test.ipynb](./tests/test.ipynb) to see the results in a more interactive way.
 
 
 ---
