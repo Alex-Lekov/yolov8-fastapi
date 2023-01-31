@@ -1,23 +1,34 @@
 # yolov8-fastapi
-FastAPI for YOLOv8 (Object Detection) in Docker. Project template.
+FastAPI for YOLOv8 (Object Detection) in Docker. This project serves as a template for object detection using YOLOv8 and FastAPI.
 
 ### Sample
 
 <img width=600 src="./tests/res/fastapi_sample.png" alt="">
 
-## What's inside:
-- YOLOv8
-- FastAPI
-- Docker
-- Python
-- PyTorch
+# What's included
+
+- YOLOv8: A popular real-time object detection model
+- FastAPI: A modern, fast (high-performance) web framework for building APIs
+- Docker: A platform for easily building, shipping, and running distributed applications
 
 
 ---
 # Getting Start
+Start the application using Docker:
 ```
 docker-compose up
 ```
+
+Or, start the application locally:
+
+```
+pip install -r requirements.txt
+```
+
+```
+uvicorn main:app --reload --host 0.0.0.0 --port 8001
+```  
+*Note: You can change the address and port in the file **docker-compose.yaml***
 
 ## FAST API Docs url:
 http://0.0.0.0:8001/docs#/
@@ -26,10 +37,8 @@ http://0.0.0.0:8001/docs#/
 
 ---
 # 🚀 Code Examples
-start the service before starting the tests
-```uvicorn main:app --reload --host 0.0.0.0 --port 8001```
-*you can change the address and port in the file **docker-compose.yaml***
-### To value
+### Example 1: Object Detection to JSON   
+The following code demonstrates how to perform object detection and receive the results in JSON format:
 ```python
 import requests
 
@@ -49,7 +58,8 @@ Output:
 {'detect_objects': [{'name': 'cat', 'confidence': 0.926225245}, {'name': 'dog', 'confidence': 0.9109069705}], 'detect_objects_names': 'cat, dog'}
 ```
 
-### To Image
+### Example 2: Object Detection to Image    
+The following code demonstrates how to perform object detection and receive the results in image format.
 ```python
 import requests
 from PIL import Image
@@ -73,9 +83,9 @@ More examples in the notebook [test.ipynb](./tests/test.ipynb)
 ---
 
 # Overview of the code
-[main.py](./main.py) Base FASTAPI functions    
-[app.py](./app.py) YoloV8 functions     
-[./models](./models) YoloV8 models folder    
+* [main.py](./main.py) - Base FastAPI functions  
+* [app.py](./app.py) - YoloV8 functions     
+* [./models](./models) - YoloV8 models folder    
 
 ---
 # Test
