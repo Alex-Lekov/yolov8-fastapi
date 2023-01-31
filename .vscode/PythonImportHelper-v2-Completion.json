@@ -1,0 +1,578 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_from_bytes",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "detect_sample_model",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "add_bboxs_on_img",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_bytes_from_image",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "crop_image_by_predict",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.yolo.utils.plotting",
+        "description": "ultralytics.yolo.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.yolo.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "ultralytics.yolo.utils.plotting",
+        "description": "ultralytics.yolo.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.yolo.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "RedirectResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "test_image",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_image():\n    \"\"\"\n    Fixture to return a file object of the test image used for testing.\n    \"\"\"\n    files = {'file': open('./tests/test_image.jpg', 'rb')}\n    return(files)\n@pytest.fixture\ndef input_image():\n    \"\"\"\n    Fixture to return a PIL image object of the test image used for testing.",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "input_image",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def input_image():\n    \"\"\"\n    Fixture to return a PIL image object of the test image used for testing.\n    \"\"\"\n    input_image = Image.open('./tests/test_image.jpg').convert(\"RGB\")\n    return(input_image)\n@pytest.fixture\ndef predictions():\n    \"\"\"\n    Fixture to return the predictions and label names for the test image.",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "predictions",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def predictions():\n    \"\"\"\n    Fixture to return the predictions and label names for the test image.\n    \"\"\"\n    input_image = Image.open('./tests/test_image.jpg').convert(\"RGB\")\n    model = YOLO(\"./models/sample_model/yolov8n.pt\")\n    predictions = model.predict(source=input_image)\n    return(predictions, model.model.names)\n################################ Test #####################################################\ndef test_get_image_from_bytes(test_image):",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_image_from_bytes",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_get_image_from_bytes(test_image):\n    \"\"\"\n    Test to check if the function 'get_image_from_bytes' is converting the binary image data to a PIL image object.\n    \"\"\"\n    binary_image = test_image['file'].read()\n    output = get_image_from_bytes(binary_image)\n    assert isinstance(output, Image.Image) and output.mode == \"RGB\"\ndef test_get_bytes_from_image(input_image):\n    \"\"\"\n    Test to check if the function 'get_bytes_from_image' is converting the PIL image object to binary image data.",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_bytes_from_image",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_get_bytes_from_image(input_image):\n    \"\"\"\n    Test to check if the function 'get_bytes_from_image' is converting the PIL image object to binary image data.\n    \"\"\"\n    output = get_bytes_from_image(input_image)\n    assert isinstance(output, io.BytesIO)\ndef test_initialize_models():\n    \"\"\"\n    Test to check if all the models are loading correctly.\n    \"\"\"",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialize_models",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_initialize_models():\n    \"\"\"\n    Test to check if all the models are loading correctly.\n    \"\"\"\n    model_sample_model = YOLO(\"./models/sample_model/yolov8n.pt\")\n    assert model_sample_model is not None\ndef test_transform_predict_to_df(predictions):\n    \"\"\"\n    Test the function 'transform_predict_to_df' which converts the predictions from the YOLO model to a pandas DataFrame.\n    It takes in two arguments:",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_transform_predict_to_df",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_transform_predict_to_df(predictions):\n    \"\"\"\n    Test the function 'transform_predict_to_df' which converts the predictions from the YOLO model to a pandas DataFrame.\n    It takes in two arguments:\n        predictions: A list of dictionaries returned by the YOLO model\n        label_names: A list of class labels for the YOLO model\n    It returns a DataFrame with columns:\n        'xmin', 'ymin', 'xmax', 'ymax', 'confidence', 'class', 'name'\n    Asserts:\n        - The returned object is a DataFrame",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_model_predict",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_get_model_predict(input_image):\n    \"\"\"\n    Test to check if the function 'get_model_predict' is returning a DataFrame object with the correct columns and number of rows.\n    It also checks if the returned object is an instance of pd.DataFrame\n    \"\"\"\n    model_sample_model = YOLO(\"./models/sample_model/yolov8n.pt\")\n    predictions = get_model_predict(model_sample_model, input_image)\n    # Check if the returned object is an instance of pd.DataFrame\n    assert isinstance(predictions, pd.DataFrame)\n    # Check if the returned DataFrame has the correct columns",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_bboxs_on_img",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_add_bboxs_on_img(input_image, predictions):\n    \"\"\"\n    Test to check if the function 'add_bboxs_on_img' is adding bounding boxes on the image and returning the image object.\n    \"\"\"\n    predictions, label_names = predictions\n    predict_bbox = transform_predict_to_df(predictions, label_names)\n    image_with_bbox = add_bboxs_on_img(input_image, predict_bbox)\n    assert isinstance(image_with_bbox, Image.Image)",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "dynamic_path",
+        "kind": 5,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "dynamic_path = os.path.abspath('.')\nprint(dynamic_path)\nsys.path.append(dynamic_path)\nfrom app import *\n################################ Fixtures #####################################################\n@pytest.fixture\ndef test_image():\n    \"\"\"\n    Fixture to return a file object of the test image used for testing.\n    \"\"\"",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_image",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_image():\n    files = {'file': open('./tests/test_image.jpg', 'rb')}\n    return(files)\n@pytest.fixture\ndef test_client():\n    return TestClient(app)\n################################ Test #####################################################\ndef test_healthcheck(test_client):\n    \"\"\"\n    This test function is used to test the /healthcheck endpoint of the application.",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_client",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_client():\n    return TestClient(app)\n################################ Test #####################################################\ndef test_healthcheck(test_client):\n    \"\"\"\n    This test function is used to test the /healthcheck endpoint of the application.\n    It uses the test client to send a GET request to the endpoint and then asserts that the response has a status code of 200 and a json payload of {\"healthcheck\": \"Everything OK!\"}\n    This function is important to check if the application is running correctly and all the dependencies are working as expected.\n    \"\"\"\n    # Send a GET request to the '/healthcheck' endpoint",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_healthcheck",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_healthcheck(test_client):\n    \"\"\"\n    This test function is used to test the /healthcheck endpoint of the application.\n    It uses the test client to send a GET request to the endpoint and then asserts that the response has a status code of 200 and a json payload of {\"healthcheck\": \"Everything OK!\"}\n    This function is important to check if the application is running correctly and all the dependencies are working as expected.\n    \"\"\"\n    # Send a GET request to the '/healthcheck' endpoint\n    response = test_client.get(\"/healthcheck\")\n    # Assert that the response has a status code of 200\n    assert response.status_code == 200",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_crop_image_by_predict",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_crop_image_by_predict():\n    \"\"\"\n    Test for the crop_image_by_predict function.\n    This function crops an image given a prediction dataframe and a class name.\n    \"\"\"\n    # Create a test image\n    test_image = Image.new(\"RGB\", (100, 100), \"white\")\n    # Create a test predict dataframe\n    test_predict = pd.DataFrame(\n        data={",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_img_object_detection_to_json",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_img_object_detection_to_json(test_client, test_image):\n    \"\"\"Test the image recognition to json endpoint with a test image.\n    Args:\n        test_client (TestClient): Fixture that allows to send HTTP requests to the application.\n        image_meters_0 (Tuple): Fixture that contains a test image file.\n    \"\"\"\n    # Send a POST request to the endpoint with the test image\n    response = test_client.post(\"/img_object_detection_to_json\", files=test_image)\n    # Assert that the request was successful (status code 200)\n    assert response.status_code == 200",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_img_object_detection_to_img",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_img_object_detection_to_img(test_client, test_image):\n    \"\"\"This test is checking the functionality of the endpoint \"/img_object_detection_to_img\" using the test_client fixture and the image_meters_0 file. It is performing a POST request to the endpoint with image_meters_0 as the file.\n    The test asserts that the response status code is 200, indicating a successful request. It also asserts that the content type of the response is \"image/jpeg\" and that the content of the response is not None. This indicates that the image was properly returned in the response.\n    The test also includes a comment suggesting that additional assertions can be added to check if the image is properly annotated with bounding boxes, which can be used to detect the display on the meter.\n    \"\"\"\n    # send POST request to endpoint with image_meters_0 as the file\n    response = test_client.post(\"/img_object_detection_to_img\", files=test_image)\n    # assert that the response status code is 200\n    assert response.status_code == 200\n    # assert that the content type of the response is \"image/jpeg\"",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "dynamic_path",
+        "kind": 5,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "dynamic_path = os.path.abspath('.')\nprint(dynamic_path)\nsys.path.append(dynamic_path)\nfrom main import crop_image_by_predict\nfrom main import app\n################################ Fixtures #####################################################\n@pytest.fixture\ndef test_image():\n    files = {'file': open('./tests/test_image.jpg', 'rb')}\n    return(files)",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_from_bytes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_image_from_bytes(binary_image: bytes) -> Image:\n    \"\"\"Convert image from bytes to PIL RGB format\n    Args:\n        binary_image (bytes): The binary representation of the image\n    Returns:\n        PIL.Image: The image in PIL RGB format\n    \"\"\"\n    input_image = Image.open(io.BytesIO(binary_image)).convert(\"RGB\")\n    return input_image\ndef get_bytes_from_image(image: Image) -> bytes:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_bytes_from_image",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_bytes_from_image(image: Image) -> bytes:\n    \"\"\"\n    Convert PIL image to Bytes\n    Args:\n    image (Image): A PIL image instance\n    Returns:\n    bytes : BytesIO object that contains the image in JPEG format with quality 85\n    \"\"\"\n    return_image = io.BytesIO()\n    image.save(return_image, format='JPEG', quality=85)  # save the image in JPEG format with quality 85",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "transform_predict_to_df",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def transform_predict_to_df(results: list, labeles_dict: dict) -> pd.DataFrame:\n    \"\"\"\n    Transform predict from yolov8 (torch.Tensor) to pandas DataFrame.\n    Args:\n        results (list): A list containing the predict output from yolov8 in the form of a torch.Tensor.\n        labeles_dict (dict): A dictionary containing the labels names, where the keys are the class ids and the values are the label names.\n    Returns:\n        predict_bbox (pd.DataFrame): A DataFrame containing the bounding box coordinates, confidence scores and class labels.\n    \"\"\"\n    # Transform the Tensor to numpy array",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_model_predict",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_model_predict(model: YOLO, input_image: Image, save: bool = False, image_size: int = 1248, conf: float = 0.5, augment: bool = False) -> pd.DataFrame:\n    \"\"\"\n    Get the predictions of a model on an input image.\n    Args:\n        model (YOLO): The trained YOLO model.\n        input_image (Image): The image on which the model will make predictions.\n        save (bool, optional): Whether to save the image with the predictions. Defaults to False.\n        image_size (int, optional): The size of the image the model will receive. Defaults to 1248.\n        conf (float, optional): The confidence threshold for the predictions. Defaults to 0.5.\n        augment (bool, optional): Whether to apply data augmentation on the input image. Defaults to False.",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "add_bboxs_on_img",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def add_bboxs_on_img(image: Image, predict: pd.DataFrame()) -> Image:\n    \"\"\"\n    add a bounding box on the image\n    Args:\n    image (Image): input image\n    predict (pd.DataFrame): predict from model\n    Returns:\n    Image: image whis bboxs\n    \"\"\"\n    # Create an annotator object",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "detect_sample_model",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def detect_sample_model(input_image: Image) -> pd.DataFrame:\n    \"\"\"\n    Predict from sample_model.\n    Base on YoloV8\n    Args:\n        input_image (Image): The input image.\n    Returns:\n        pd.DataFrame: DataFrame containing the object location.\n    \"\"\"\n    predict = get_model_predict(",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "model_sample_model",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "model_sample_model = YOLO(\"./models/sample_model/yolov8n.pt\")\ndef get_image_from_bytes(binary_image: bytes) -> Image:\n    \"\"\"Convert image from bytes to PIL RGB format\n    Args:\n        binary_image (bytes): The binary representation of the image\n    Returns:\n        PIL.Image: The image in PIL RGB format\n    \"\"\"\n    input_image = Image.open(io.BytesIO(binary_image)).convert(\"RGB\")\n    return input_image",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "save_openapi_json",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def save_openapi_json():\n    openapi_data = app.openapi()\n    # Change \"openapi.json\" to desired filename\n    with open(\"openapi.json\", \"w\") as file:\n        json.dump(openapi_data, file)\n@app.get(\"/\", include_in_schema=False)\nasync def redirect():\n    return RedirectResponse(\"/docs\")\n@app.get('/healthcheck', status_code=status.HTTP_200_OK)\ndef perform_healthcheck():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "perform_healthcheck",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def perform_healthcheck():\n    '''\n    Simple route for the GitHub Actions to healthcheck on.\n    More info is available at:\n    https://github.com/akhileshns/heroku-deploy#health-check\n    It basically sends a GET request to the route & hopes to get a \"200\"\n    response code. Failing to return a 200 response code just enables\n    the GitHub Actions to rollback to the last version the project was\n    found in a \"working condition\". It acts as a last line of defense in\n    case something goes south.",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "crop_image_by_predict",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def crop_image_by_predict(image: Image, predict: pd.DataFrame(), crop_class_name: str,) -> Image:\n    \"\"\"Crop an image based on the detection of a certain object in the image.\n    Args:\n        image: Image to be cropped.\n        predict (pd.DataFrame): Dataframe containing the prediction results of object detection model.\n        crop_class_name (str, optional): The name of the object class to crop the image by. if not provided, function returns the first object found in the image.\n    Returns:\n        Image: Cropped image or None\n    \"\"\"\n    crop_predicts = predict[(predict['name'] == crop_class_name)]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "img_object_detection_to_json",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def img_object_detection_to_json(file: bytes = File(...)):\n    \"\"\"\n    Object Detection from an image.\n    Args:\n        file (bytes): The image file in bytes format.\n    Returns:\n        dict: JSON format containing the Objects Detections.\n    \"\"\"\n    # Step 1: Initialize the result dictionary with None values\n    result={'detect_objects': None}",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "img_object_detection_to_img",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def img_object_detection_to_img(file: bytes = File(...)):\n    \"\"\"\n    Object Detection from an image plot bbox on image\n    Args:\n        file (bytes): The image file in bytes format.\n    Returns:\n        Image: Image in bytes with bbox annotations.\n    \"\"\"\n    # get image from bytes\n    input_image = get_image_from_bytes(file)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Object Detection FastAPI Template\",\n    description=\"\"\"Obtain object value out of image\n                    and return image and json result\"\"\",\n    version=\"2023.1.31\",\n)\norigins = [\n    \"http://localhost\",\n    \"http://localhost:8008\",\n    \"*\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:8008\",\n    \"*\"\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "main",
+        "documentation": {}
+    }
+]
