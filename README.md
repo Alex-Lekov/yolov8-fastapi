@@ -27,7 +27,7 @@ http://0.0.0.0:8008/docs#/
 ---
 # 🚀 Code Examples
 start the service before starting the tests
-> uvicorn main:app --reload --host 0.0.0.0 --port 8008
+```uvicorn main:app --reload --host 0.0.0.0 --port 8008```
 *you can change the address and port in the file **docker-compose.yaml***
 ### To value
 ```python
@@ -73,9 +73,9 @@ More examples in the notebook [test.ipynb](./tests/test.ipynb)
 ---
 
 # Overview of the code
-[main.py](./main.py) Base FASTAPI functions
-[app.py](./app.py) YoloV8 functions
-[./models](./models) YoloV8 models folder
+[main.py](./main.py) Base FASTAPI functions    
+[app.py](./app.py) YoloV8 functions     
+[./models](./models) YoloV8 models folder    
 
 ---
 # Test
