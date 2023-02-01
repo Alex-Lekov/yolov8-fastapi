@@ -31,7 +31,7 @@ logger.add("log.log", rotation="1 MB", level="DEBUG", compression="zip")
 
 ###################### FastAPI Setup #############################
 
-
+# title
 app = FastAPI(
     title="Object Detection FastAPI Template",
     description="""Obtain object value out of image
@@ -39,6 +39,10 @@ app = FastAPI(
     version="2023.1.31",
 )
 
+# This function is needed if you want to allow client requests 
+# from specific domains (specified in the origins argument) 
+# to access resources from the FastAPI server, 
+# and the client and server are hosted on different domains.
 origins = [
     "http://localhost",
     "http://localhost:8008",
@@ -55,12 +59,19 @@ app.add_middleware(
 
 @app.on_event("startup")
 def save_openapi_json():
+    '''This function is used to save the OpenAPI documentation 
+    data of the FastAPI application to a JSON file. 
+    The purpose of saving the OpenAPI documentation data is to have 
+    a permanent and offline record of the API specification, 
+    which can be used for documentation purposes or 
+    to generate client libraries. It is not necessarily needed, 
+    but can be helpful in certain scenarios.'''
     openapi_data = app.openapi()
     # Change "openapi.json" to desired filename
     with open("openapi.json", "w") as file:
         json.dump(openapi_data, file)
 
-
+# redirect
 @app.get("/", include_in_schema=False)
 async def redirect():
     return RedirectResponse("/docs")
@@ -69,10 +80,6 @@ async def redirect():
 @app.get('/healthcheck', status_code=status.HTTP_200_OK)
 def perform_healthcheck():
     '''
-    Simple route for the GitHub Actions to healthcheck on.
-    More info is available at:
-    https://github.com/akhileshns/heroku-deploy#health-check
-
     It basically sends a GET request to the route & hopes to get a "200"
     response code. Failing to return a 200 response code just enables
     the GitHub Actions to rollback to the last version the project was
