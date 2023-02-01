@@ -1,30 +1,38 @@
-# yolov8-fastapi
-FastAPI for YOLOv8 (Object Detection) in Docker. This project serves as a template for object detection using YOLOv8 and FastAPI.
+# YOLOv8-FastAPI:
+This repository serves as a template for object detection using YOLOv8 and FastAPI. With YOLOv8, you get a popular real-time object detection model and with FastAPI, you get a modern, fast (high-performance) web framework for building APIs. The project also includes Docker, a platform for easily building, shipping, and running distributed applications.
 
 ### Sample
-
+Here's a sample of what you can expect to see with this project:
 <img width=600 src="./tests/res/fastapi_sample.png" alt="">
 
-# What's included
+# What's inside:
 
 - YOLOv8: A popular real-time object detection model
 - FastAPI: A modern, fast (high-performance) web framework for building APIs
 - Docker: A platform for easily building, shipping, and running distributed applications
 
+<img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/yolo-comparison-plots.png"></a>
 
 ---
-# Getting Start
-Start the application using Docker:
+# Getting Started
+
+You have two options to start the application: using Docker or locally on your machine.
+
+## Using Docker
+Start the application with the following command:
 ```
 docker-compose up
 ```
 
-Or, start the application locally:
+## Locally
+To start the application locally, follow these steps:
+
+1. Install the required packages:
 
 ```
 pip install -r requirements.txt
 ```
-
+2. Start the application:
 ```
 uvicorn main:app --reload --host 0.0.0.0 --port 8001
 ```  
@@ -34,6 +42,8 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8001
 http://0.0.0.0:8001/docs#/
 
 <img width=600 src="./tests/res/fastapi.png" alt="FAST API">    
+
+Ready to start your object detection journey with YOLOv8-FastAPI? 🚀
 
 ---
 # 🚀 Code Examples
@@ -91,7 +101,7 @@ More examples in the notebook [test.ipynb](./tests/test.ipynb)
 # Test
 This repository contains functional tests for a program to ensure the proper operation of the service.
 
-### Getting Started Test
+## Getting Started Test
 To get started with the testing process, you first need to set up the necessary environment. This can be achieved by either installing the required packages or by running the Docker container.
 
 #### 1. Installing Required Packages:
@@ -99,7 +109,8 @@ Run the following command to install the necessary packages:
 ```
 pip install -r requirements.txt
 ```
-### Alternatively, you can also run the tests inside a Docker container. To do so, follow these steps:
+
+Alternatively, you can also run the tests inside a Docker container. To do so, follow these steps:
 Start the Docker container:
 ```
 docker-compose up
@@ -113,7 +124,7 @@ Connect inside the container:
 docker exec -it {CONTAINER_ID}
 ```
 
-2. Run the tests from the program directory:
+#### 2. Run the tests from the program directory:
 Once you have set up the environment, navigate to the program directory and run the tests using the following command:
 ```
 pytest -v --disable-warnings
@@ -121,10 +132,6 @@ pytest -v --disable-warnings
 
 If all tests pass successfully, you will see the following result:     
 <img width=600 src="./tests/res/tests.png" alt="">    
-
-
-A Jupyter Notebook with visualization has also been added to this repository. Check out [test.ipynb](./tests/test.ipynb) to see the results in a more interactive way.
-
 
 ---
 
