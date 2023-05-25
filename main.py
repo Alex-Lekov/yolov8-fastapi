@@ -45,7 +45,7 @@ app = FastAPI(
 # and the client and server are hosted on different domains.
 origins = [
     "http://localhost",
-    "http://localhost:8008",
+    "http://localhost:8010",
     "*"
 ]
 
@@ -148,7 +148,7 @@ def img_object_detection_to_json(file: bytes = File(...)):
     # detect_res = predict[['name', 'confidence','xmax','xmin','ymax','ymin']]
     objects = predict['name'].values
     for index, row in predict.iterrows():
-        box = {
+        bbox = {
             'xmin': row['xmin'],
             'ymin': row['ymin'],
             'xmax': row['xmax'],
@@ -157,7 +157,7 @@ def img_object_detection_to_json(file: bytes = File(...)):
         detect_object = {
             'name': row['name'],
             'confidence': row['confidence'],
-            'box': box
+            'bbox': bbox
         }
         result['detect_objects'].append(detect_object)
     result['detect_objects_names'] = ', '.join(objects)
